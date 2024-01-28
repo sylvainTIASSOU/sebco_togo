@@ -58,7 +58,7 @@ export  default function  Congratulation() {
             <div className={"flex flex-col-reverse md:flex-row md:content-between md:justify-between"}>
 
 
-                <div className={"w-full mt-[10%] ml-5"}>
+                <div className={"w-full mt-[10%] md:ml-5"}>
                     <h1 className={"text-center md:w-full text-[30px]   mt-10 "}>Votre commande est en route pour votre addresse</h1>
                     <div className={" mt-5"}>
 
@@ -79,7 +79,7 @@ export  default function  Congratulation() {
                                 <button type={"submit"}
                                         disabled={!formik.errors.content ? false : true}
                                 >
-                                    <BsFillSendFill className={"w-[30px] h-[30px]"}/>
+                                    <BsFillSendFill className={"w-[45px] h-[45px] md:w-[30px] md:h-[30px]"}/>
                                 </button>
                             </form>
                         </div>

@@ -36,7 +36,7 @@ export default function Category() {
 
             {/*card of categories*/}
 
-            <div className={"w-full flex flex-col space-y-5 md:content-between md:justify-between md:space-y-0 md:flex-row"}>
+            <div className={"w-full flex flex-col space-y-5 md:space-x-5 md:space-y-0 md:flex-row"}>
                 {/*cards*/}
 
                     {

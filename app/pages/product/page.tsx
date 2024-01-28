@@ -222,7 +222,7 @@ export default function product() {
             {/** gravel */}
 
             <div className='mt-8  ' id="gravel">
-                <h1 className='text-[25px] font-bold '>Sables</h1>
+                <h1 className='text-[25px] font-bold '>Gravier</h1>
                 <div className='flex flex-col space-y-5 mt-3  md:grid md:grid-cols-3 md:gap-6 '>
                     {
                         dataGravel == null ? '' :
@@ -356,7 +356,7 @@ export default function product() {
 
             {/** blank */}
             <div className='mt-8  ' id="blank">
-                <h1 className='text-[25px] font-bold '>Sables</h1>
+                <h1 className='text-[25px] font-bold '>Ramblai</h1>
                 <div className='flex flex-col space-y-5 mt-3  md:grid md:grid-cols-3 md:gap-6 '>
                     {
                         dataBlank == null ? '' :

@@ -1,0 +1,21 @@
+export const routes = {
+    home: "/",
+    about: "/pages/about",
+    cart: "/pages/cart",
+    facture: "/pages/facture",
+    history: "/pages/history",
+    login: "/pages/login",
+    notifications: "/pages/notifications",
+    order: "/pages/order",
+    pay: "/pages/pay",
+    productCat: "/pages/productCategory",
+    products: "/pages/products",
+    registry: "/pages/registre",
+    resetPass: "/pages/resetPassword",
+    truck: "/pages/truckInfo",
+    devis: '/pages/devis',
+    materialCat: '/pages/materialCategory',
+    product: '/pages/product',
+    profil: '/pages/profil',
+    congratulation: '/pages/congratulation'
+}
